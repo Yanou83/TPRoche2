@@ -14,7 +14,8 @@ namespace PileObjet
             //TestePileVidePleine(0);
             //TesteEmpiler(5);
             //TesteEmpiler(2);
-            TesteEmpilerDepiler(5);
+            //TesteEmpilerDepiler(5);
+            int nbSaison= Utilitaires.Utilitaire.SaisirNb();
             Console.WriteLine("Fin du programme");
             Console.ReadKey();
         }
