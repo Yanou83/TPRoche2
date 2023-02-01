@@ -14,7 +14,14 @@ namespace PileObjet
             //TestePileVidePleine(0);
             //TesteEmpiler(5);
             //TesteEmpiler(2);
-            TesteEmpilerDepiler(5);
+            //TesteEmpilerDepiler(5);
+            int nbSaisi = Utilitaires.Utilitaire.SaisirNb();
+            Console.WriteLine("Nombre saisi : " + nbSaisi);
+            nbSaisi = Utilitaires.Utilitaire.SaisirNb(10);
+            Console.WriteLine("Nombre saisi : " + nbSaisi);
+            nbSaisi = Utilitaires.Utilitaire.SaisirNb(10, 30);
+            Console.WriteLine("Nombre saisi : " + nbSaisi);
+
             Console.WriteLine("Fin du programme");
             Console.ReadKey();
         }
